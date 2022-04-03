@@ -27,7 +27,7 @@ if(Session::has('user'))
         </ul>
         <form action="/search" class="navbar-form navbar-left">
           <div class="form-group">
-            <input type="text" name="query" class="form-control search-box" placeholder="Search">
+            <input type="text" name="query" class="form-control search-box" placeholder="Search" required>
           </div>
           <button type="submit" class="btn btn-default">Search</button>
         </form>
